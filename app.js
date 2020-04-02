@@ -8,7 +8,6 @@ var time_elapsed;
 var interval;
 
 $(document).ready(function() {
-	alert("joe?");
 	context = canvas.getContext("2d");
 	Start();
 });
