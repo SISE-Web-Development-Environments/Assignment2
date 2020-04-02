@@ -7,14 +7,11 @@ var start_time;
 var time_elapsed;
 var interval;
 
-document.addEventListener(
-	"DOMContentLoaded",
-	() => {
-		context = canvas.getContext("2d");
-		Start();
-	},
-	false
-);
+$(document).ready(function() {
+	alert("joe?");
+	context = canvas.getContext("2d");
+	Start();
+});
 
 function Start() {
 	board = new Array();
